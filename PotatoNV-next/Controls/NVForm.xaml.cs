@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -59,9 +58,6 @@ namespace PotatoNV_next.Controls
         {
             public UsbController.Device.DMode TargetMode { get; set; }
             public string Target { get; set; }
-            public string BoardID { get; set; }
-            public string UnlockCode { get; set; }
-            public string SerialNumber { get; set; }
             public bool DisableFBLOCK { get; set; }
             public Bootloader Bootloader { get; set; } = null;
         }

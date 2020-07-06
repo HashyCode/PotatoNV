@@ -23,7 +23,7 @@ Global
 		{2F103DCF-DFBA-48B0-BEA4-D4B845532A42}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		HideSolutionNode = TRUE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A7BB24B-D64F-4A12-B0AC-C25E9FCB1DEB}

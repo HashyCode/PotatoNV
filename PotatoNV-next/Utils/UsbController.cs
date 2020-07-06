@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.Linq;
 using System.Management;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -17,7 +16,7 @@ namespace PotatoNV_next.Utils
         {
             public enum DMode
             {
-                DownloadVCOM,
+                DownloadVCOM1,
                 Fastboot
             }
 
@@ -116,7 +115,7 @@ namespace PotatoNV_next.Utils
 
         private void UpdateList()
         {
-            var list = new List<Device>();
+            var list = new List of<Device>();
 
             try
             {

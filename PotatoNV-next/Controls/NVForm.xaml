@@ -16,14 +16,6 @@
             <ComboBox Name="deviceBootloader" />
         </StackPanel>
         <StackPanel>
-            <Label Content="Serial number (optional)" />
-            <TextBox x:Name="nvSerialNumber" />
-        </StackPanel>
-        <StackPanel>
-            <Label Content="Board ID (optional)" />
-            <TextBox x:Name="nvBidNumber" />
-        </StackPanel>
-        <StackPanel>
             <Label Content="Unlock code" />
             <TextBox x:Name="nvUnlockCode" />
         </StackPanel>

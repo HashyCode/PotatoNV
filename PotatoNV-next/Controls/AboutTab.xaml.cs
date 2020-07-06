@@ -1,7 +1,6 @@
 ﻿using PotatoNV_next.Utils;
 using System;
 using System.Diagnostics;
-using System.Linq;
 using System.Windows.Controls;
 
 namespace PotatoNV_next.Controls
